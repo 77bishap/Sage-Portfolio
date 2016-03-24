@@ -1,0 +1,84 @@
+
+/*GENERAL*/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: font-family: 'Teko', sans-serif;
+}
+
+p, a {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #282828;
+}
+
+.active {
+	color: #f63c3c;
+	border-bottom: 2px solid #f63c3c;
+}
+
+.hidden {
+	display: none;
+}
+
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+/*TOP*/
+
+header {
+	width: 1171px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+header img {
+	width: 70px;
+	height: auto;
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 30px 20px 0 20px;
+}
+
+nav a {
+	padding-bottom: 18px;
+}
+
+#top {
+	background-image: linear-gradient(
+                 rgba(20,20,20, .5), 
+                 rgba(20,20,20, .5)), url(../img/hero_img.jpg);
+}
+
+/*MIDDLE*/
+
+/*BOTTOM*/
+
+
+
+
+
